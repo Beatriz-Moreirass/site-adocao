@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,100;1,200&family=Sedgwick+Ave+Display&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sedgwick Ave Dispay', cursive
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Monstserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #ffdead;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+       
+}
+
+.logo-cabecalho{
+    width: 50px;
+
+    
+}
+
+
+.menu-navegacao a{
+    color: maroon;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu-navegacao{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.botao-rosa{
+    background-color: darksalmon;
+    padding: 10px 20px;
+    color: maroon;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.imagem-banner{
+    width:250px;
+    height:400px;
+    object-fit: cover;
+    margin-left:10px;
+    margin-right:10px;
+    border-color: maroon;
+    border-style: double;
+    border-width: medium;
+
+    
+}
+.banner{
+    text-align: center;
+    background-image: url('../imagens/backgroud.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+
+}
